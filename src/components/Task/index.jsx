@@ -3,8 +3,8 @@ import classNames from 'classnames';
 const Task = () => (
   <section
     className={classNames(
-      'lg:h-screen px-4 lg:px-28 py-16 relative overflow-hidden',
-      'lg:grid grid-cols-2 gap-4',
+      'h-screen px-4 lg:px-28 py-16 relative overflow-hidden',
+      'xl:grid grid-cols-2 gap-4',
       'bg-yellow-50 blur-[0.3px]'
     )}
   >
@@ -16,7 +16,7 @@ const Task = () => (
       <p
         className={classNames(
           'text-secondary text-xl sm:text-2xl lg:text-[1.7rem] leading-tight',
-          'max-w-[70%] my-12 sm:my-24 lg:my-0'
+          'max-w-[70%] my-12 sm:my-24 xl:my-0'
         )}
       >
         Use component &lt;Task&gt; to create layout and style.scss to
